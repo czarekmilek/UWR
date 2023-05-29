@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="zadanie2">
+        <HintPath>..\..\zadanie2\zadanie2\bin\Debug\net7.0\zadanie2.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

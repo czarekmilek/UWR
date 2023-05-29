@@ -1,0 +1,12 @@
+D:\Projects\C#\zadanie2\zadanie2\bin\Debug\net7.0\zadanie2.deps.json
+D:\Projects\C#\zadanie2\zadanie2\bin\Debug\net7.0\zadanie2.dll
+D:\Projects\C#\zadanie2\zadanie2\bin\Debug\net7.0\zadanie2.pdb
+D:\Projects\C#\zadanie2\zadanie2\obj\Debug\net7.0\zadanie2.csproj.AssemblyReference.cache
+D:\Projects\C#\zadanie2\zadanie2\obj\Debug\net7.0\zadanie2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\zadanie2\zadanie2\obj\Debug\net7.0\zadanie2.AssemblyInfoInputs.cache
+D:\Projects\C#\zadanie2\zadanie2\obj\Debug\net7.0\zadanie2.AssemblyInfo.cs
+D:\Projects\C#\zadanie2\zadanie2\obj\Debug\net7.0\zadanie2.csproj.CoreCompileInputs.cache
+D:\Projects\C#\zadanie2\zadanie2\obj\Debug\net7.0\zadanie2.dll
+D:\Projects\C#\zadanie2\zadanie2\obj\Debug\net7.0\refint\zadanie2.dll
+D:\Projects\C#\zadanie2\zadanie2\obj\Debug\net7.0\zadanie2.pdb
+D:\Projects\C#\zadanie2\zadanie2\obj\Debug\net7.0\ref\zadanie2.dll
