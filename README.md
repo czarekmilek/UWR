@@ -16,3 +16,18 @@ II SEM:
 - Programowanie Obiektowe
 - Kurs języka C++
 - Warsztaty: Jak założyć firmę?
+
+III SEM:
+- Analiza Numeryczna
+- Matematyka Dyskretna
+- Wybrane elementy praktyki projektowania oprogramowania
+- Kurs rozszerzony języka Python
+- Kurs projektowania aplikacji z bazami danych
+
+Ongoing:
+
+IV SEM:
+- Algorytmy i struktury danych
+- Kurs: React
+- Rachunek prawdopodobieństwa i statystyka
+- Systemy komputerowe
