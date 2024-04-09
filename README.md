@@ -1,32 +1,32 @@
 # UWR
-Projects/tasks done during studies at the University of Wrocław.
+Projekty/zadania wykonane podczas studiów na Uniwersytecie Wrocławskim.
 
-Courses completed so far:
+Ukończone kursy:
 
-I SEM:
+**I SEM**:
 - Logika dla informatyków
 - Analiza matematyczna
 - Wstęp do informatyki
 - Kurs: Podstawowy warsztat informatyka
 - Kurs: Wstęp do programowania w języku Python
   
-II SEM:
+**II SEM**:
 - Metody Programowania
 - Algebra
 - Programowanie Obiektowe
 - Kurs języka C++
 - Warsztaty: Jak założyć firmę?
 
-III SEM:
+**III SEM**:
 - Analiza Numeryczna
 - Matematyka Dyskretna
 - Wybrane elementy praktyki projektowania oprogramowania
 - Kurs rozszerzony języka Python
 - Kurs projektowania aplikacji z bazami danych
 
-Ongoing:
+Obecny semestr:
 
-IV SEM:
+**IV SEM**:
 - Algorytmy i struktury danych
 - Kurs: React
 - Rachunek prawdopodobieństwa i statystyka
