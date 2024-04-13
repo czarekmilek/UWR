@@ -1,0 +1,25 @@
+[
+    {
+      "_id": 1,
+      "PESEL": "55101011111",
+      "last_name": "Kowalski",
+      "city": "Wrocław",
+      "birth_date": "1955-10-10",
+      "borrowings": [
+        {"_id": 1, "speciman_id": 4, "borrow_date": "2020-02-01", "days": 12},
+        {"_id": 2, "speciman_id": 3, "borrow_date": "2020-10-11", "days": 20}
+      ]
+    },
+    {
+      "_id": 2,
+      "PESEL": "55101234567",
+      "last_name": "Nowak",
+      "city": "Łódź",
+      "birth_date": "1970-11-09",
+      "borrowings": [
+        {"_id": 3, "speciman_id": 5, "borrow_date": "2021-02-01", "days": 12},
+        {"_id": 4, "speciman_id": 1, "borrow_date": "2023-10-11", "days": 20}
+      ]
+    }
+  ]
+  

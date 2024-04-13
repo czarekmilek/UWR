@@ -1,0 +1,31 @@
+[
+    {
+      "_id": 1,
+      "ISBN": "83-246-0279-8",
+      "title": "Microsoft Access. Podrêcznik administratora",
+      "author": "Helen Feddema",
+      "published_date": 2006,
+      "price": 69,
+      "lended_last_month": 0,
+      "specimens": [
+        {"_id": 1, "shelf_mark": "S0001"},
+        {"_id": 2, "shelf_mark": "S0002"},
+        {"_id": 3, "shelf_mark": "S0003"}
+      ]
+    },
+    {
+      "_id": 2,
+      "ISBN": "83-246-0653-X",
+      "title": "SQL Server 2005. Programowanie. Od podstaw",
+      "author": "Robert Vieira",
+      "published_date": 2007,
+      "price": 97,
+      "lended_last_month": 1,
+      "specimens": [
+        {"_id": 4, "shelf_mark": "S0004"},
+        {"_id": 5, "shelf_mark": "S0005"},
+        {"_id": 6, "shelf_mark": "S0006"}
+      ]
+    }
+  ]
+  
