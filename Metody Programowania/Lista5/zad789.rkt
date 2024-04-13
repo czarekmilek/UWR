@@ -50,3 +50,35 @@
 (free-vars f2) ; powinno zwrócić '(x)
 (free-vars f3) ; powinno zwrócić '(x z)
 (free-vars f4) ; powinno zwrócić '(a b c)
+;hash (( Listof ( ' a * 'b)) -> ( Hashof 'a 'b))
+;hash-ref : (( Hashof 'a 'b) 'a -> ( Optionof 'b))
+;hash-set : (( Hashof 'a 'b) 'a 'b -> ( Hashof 'a 'b))
+(define x (conj
+           (conj
+            (disj (var "p") (neg (conj (var "q") (neg (var "q")))))
+            (neg (var "p")))
+           (disj (var "p")
+                 (disj (var "s") (neg (var "s"))))))
+
+
+(define (eval dict form)
+  (cond [(var? form)  (some-v (hash-ref dict (var-v form)))]
+        [(conj? form) (and (eval dict (conj-l form)) (eval dict (conj-r form)))]
+        [(disj? form) (or (eval dict (disj-l form)) (eval dict (disj-r form)))]
+        [(neg? form)  (not (eval dict (neg-f form)))]))
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+(define (tautology? px)
+  (local [(define px-vars (free-vars px))
+          (define (values vars d)
+            (cond [(empty? vars) (eval d px)]
+                  [else (and (values (rest vars) (hash-set d (first vars) #t))
+                             (values (rest vars) (hash-set d (first vars) #f)))]))]
+    (values px-vars (hash '()))))
+
+(tautology? (disj (var "q") (neg (var "q"))))
+(tautology? x)
