@@ -1,0 +1,94 @@
+@use 'colors';
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.portfolio {
+  margin: 0 auto;
+}
+
+.content-card {
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.theme-toggle-button {
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Light theme */
+.light-theme {
+  background-color: colors.$background-light;
+  color: colors.$text-light; /* Text color for light theme */
+}
+
+.light-theme .navbar a {
+  color: colors.$text-light; /* Link color for light theme */
+}
+
+.light-theme .theme-toggle-button {
+  background-color: colors.$text-light;
+  color: colors.$button-text;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.light-theme .theme-toggle-button:hover {
+  background-color: colors.$button-hover-light;
+}
+
+.light-theme .content-card {
+  background-color: colors.$content-card-light;
+}
+
+.light-theme .navbar {
+  background-color: colors.$blog-post-light;
+}
+/* Dark theme */
+.dark-theme {
+  background-color: colors.$background-dark;
+  color: colors.$text-dark; /* Text color for dark theme */
+}
+
+.dark-theme .navbar a {
+  color: colors.$text-dark; /* Link color for dark theme */
+}
+
+.dark-theme .theme-toggle-button {
+  background-color: colors.$button-dark;
+  color: colors.$button-bg-hover-dark;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dark-theme .theme-toggle-button:hover {
+  background-color: colors.$button-hover-dark;
+}
+
+.dark-theme .content-card {
+  background-color: colors.$button-bg-hover-dark;
+}
+
+.dark-theme .navbar {
+  background-color: colors.$blog-post-dark;
+}

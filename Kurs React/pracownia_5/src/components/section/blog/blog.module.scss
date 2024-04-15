@@ -1,0 +1,63 @@
+@use '../src/colors';
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.blog-post {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+.blog-post h3 {
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  margin-bottom: 10px;
+}
+
+.blog-post button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.blog-post button:hover {
+  background-color: colors.$button-bg-hover;
+}
+
+// Kolory
+
+:global(.light-theme) .blog-post {
+  background-color: colors.$blog-post-light;
+  color: colors.$text-light;
+}
+
+:global(.light-theme) .blog-post button {
+  background-color: colors.$button-bg;
+  color: colors.$background-light;
+}
+
+:global(.light-theme) .blog-post button:hover {
+  background-color: colors.$button-bg-hover;
+}
+
+:global(.dark-theme) .blog-post {
+  background-color: colors.$blog-post-dark;
+  color: colors.$background-light;
+}
+
+:global(.dark-theme) .blog-post button {
+  background-color: colors.$button-bg;
+  color: colors.$background-light;
+}
+
+:global(.dark-theme) .blog-post button:hover {
+  background-color: colors.$button-bg-hover;
+}

@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* TodoInput */
+.todo-input-container {
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 1em;
+
+  .todo-form {
+    margin-bottom: 1em;
+    border: none;
+    background-color: rgb(227, 211, 219);
+    padding: 12px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-overflow: ellipsis;
+  }
+
+  .todo-input {
+    width: 600px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: #1d3e1ee7;
+  }
+  .todo-input:focus {
+    outline: none;
+  }
+
+  .todo-input-button {
+    color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    background-color: #9d7395;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      background-color: #a3448d;
+      transform: scale(1.01);
+    }
+  }
+}
+
+/* TodoItem */
+.todo-item-container {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+
+  .todo-item {
+    margin-bottom: 0.5em;
+    max-width: 600px;
+    border: none;
+    background-color: #9d739b;
+    padding: 8px 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    text-overflow: ellipsis;
+    transition: 0.4s ease;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #a3448d;
+      scale: 1.01;
+    }
+  }
+
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 5px;
+    transition: color 0.2s ease, transform 0.3s ease;
+
+    &:hover {
+      color: rgb(234, 173, 173);
+      transform: scale(1.1);
+    }
+  }
+
+  .todo-text {
+    color: whitesmoke;
+    font-size: 16px;
+    margin-right: 5px;
+  }
+}
+
+/* TodoItem.completed */
+.todo-item.completed {
+  background-color: rgb(169, 142, 165);
+  opacity: 50%;
+
+  .todo-text {
+    text-decoration: line-through;
+  }
+}
+
+/* TodoFilters */
+.todo-filters-container {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+
+  .todo-input {
+    border: none;
+    background: rgb(227, 211, 225);
+    color: #1d3e1ee7;
+    border-radius: 18px;
+    padding: 8px 20px;
+    font-size: 18px;
+    margin-top: 1em;
+  }
+  .todo-input:focus {
+    outline: none;
+  }
+
+  .todo-input-button {
+    color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #9d739a;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 1em 0 1em 0;
+
+    &:hover {
+      background-color: #a3448d;
+      transform: scale(1.01);
+    }
+  }
+
+  /* v2 rzeczy - paginacja, sortowanie*/
+  .page-numbers {
+    display: absolute;
+    justify-content: center;
+    margin-top: 1rem;
+    color: #4e284ee7;
+
+    .page-nums {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+    .prev-next-buttons button {
+      color: whitesmoke;
+      border-radius: 14px;
+      border: none;
+      padding: 4px 10px;
+      background-color: #9d739a;
+      cursor: pointer;
+      transition: background-color 0.2s ease, transform 0.3s ease;
+      margin: 1em 2px 2em 2px;
+
+      &:hover {
+        background-color: #a3448d;
+        transform: scale(1.01);
+      }
+    }
+
+    select {
+      padding: 0.4rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #fff;
+      color: whitesmoke;
+      background-color: rgb(169, 142, 165);
+      appearance: none;
+      cursor: pointer;
+      margin: 0 1px;
+      transition: background-color 0.3s ease, background-color 0.3s ease;
+
+      &:hover {
+        background-color: #9d739a;
+      }
+
+      &:focus {
+        outline: none;
+        background-color: #9d739a;
+        color: white;
+      }
+    }
+
+    .custom-pagination-input {
+      padding: 0.4rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background-color: hsl(304, 12%, 74%);
+      color: whitesmoke;
+      width: 80px;
+      margin-left: 1px;
+      outline: none;
+    }
+
+    .custom-pagination-input:focus {
+      background-color: #9d739a;
+    }
+  }
+
+  p {
+    color: hwb(314 21% 47%);
+    font-size: 18px;
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
+  }
+}
