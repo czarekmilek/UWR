@@ -26,6 +26,6 @@ _Pamiętaj, że można usunąć notkę czy zmienić sortowanie nie będąc na pi
 Dopilnuj, by twój stan był możliwie prosty. Opisz, co trzeba było zmienić w stosunku do poprzedniego rozwiązania, by wspierać nowe funkcjonalności, i jak trudne byłoby rozszerzenie obecnej wersji.
 
 ---
-## Wykonanie
+## Prezentacja
 ### Todo lista
 ![todo](todo.png)

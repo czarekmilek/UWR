@@ -36,6 +36,6 @@ Użyj [vite](https://vitejs.dev/) do stworzenia lokalnej instancji Reacta. Konie
 
 ---
 
-## Wykonanie
+## Prezentacja
 ![recipe_searcher_form](recipe_searcher_form.png)
 ![recipe_searcher](recipe_searcher.png)

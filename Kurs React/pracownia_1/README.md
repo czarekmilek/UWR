@@ -20,7 +20,7 @@ _Uwaga: W prawdziwym świecie czasem nie chcemy rozdrabniać komponentów zbyt b
 Przygotuj (używając narzędzi typu miro, microsoft whiteboard czy draw.io) drzewko komponentów, podobne do tego zaprezentowanego na wykładzie. Dla każdego komponentu prowadzący ma prawo zapytać do czego on służy, czemu jest wydzielony i czy nie da się go bardziej podzielić (albo czemu jest podzielony aż tak bardzo). Oddając zadanie zdalnie opis dla każdego komponentu należy przedstawić w formie pliku tekstowego.
 
 ---
-## Wykonanie
+## Prezentacja
 
 ### Karta
 ![card](the_card.png)

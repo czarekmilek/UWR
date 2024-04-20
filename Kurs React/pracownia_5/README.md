@@ -43,7 +43,7 @@ Style należy przepisać na [emotion](https://emotion.sh/docs/introduction).
 3. Light/Dark mode powinny być zrobione z użyciem `ThemeProvider` odpowiedniej biblioteki: odpowiednie kolory należy nadawać używając [Themingu](https://emotion.sh/docs/theming) bez użycia dodatkowych klas.
 
 ---
-## Wykonanie
+## Prezentacja
 ### SCSS
 #### Light mode
 ![](photo1.png)
