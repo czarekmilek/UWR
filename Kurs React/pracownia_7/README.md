@@ -51,3 +51,10 @@ Oceniana będzie czytelność kodu, zarówno css-owego jak i js-owego. Należy z
 ## Przykład
 
 Przykładowa aplikacja: [account](images/account.png), [password](images/password.png), [preferences](images/preferences.png).
+
+---
+## Prezentacja
+
+![photo](showcase/image1.png)
+![photo](showcase/image2.png)
+![photo](showcase/image3.png)

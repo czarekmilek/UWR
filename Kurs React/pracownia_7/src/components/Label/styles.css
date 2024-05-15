@@ -1,0 +1,13 @@
+@import '@radix-ui/colors/black-alpha.css';
+
+/* reset */
+input {
+  all: unset;
+}
+
+.LabelRoot {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  color: white;
+}
