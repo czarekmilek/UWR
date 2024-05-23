@@ -1,0 +1,170 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Introduction to Algorithms, Fourth Edition",
+      "author": "Thomas H. Cormen",
+      "year": "2022",
+      "copies": 70,
+      "price": 40.5,
+      "genreId": "5"
+    },
+    {
+      "id": 2,
+      "title": "Berserk",
+      "author": "Kentarō Miura",
+      "year": "1989",
+      "copies": 42,
+      "price": 30.99,
+      "genreId": "3",
+      "genre": "Fantasy"
+    },
+    {
+      "id": 3,
+      "title": "Wiedźmin",
+      "author": "Andrzej Sapkowski",
+      "year": "1986",
+      "copies": 108,
+      "price": 19.99,
+      "genreId": "3"
+    },
+    {
+      "id": 4,
+      "title": "Diuna",
+      "author": "Frank Herbert",
+      "year": "1965",
+      "copies": 31,
+      "price": 20.99,
+      "genreId": "4"
+    },
+    {
+      "id": 5,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "year": "2008",
+      "copies": 231,
+      "price": 12,
+      "genreId": "1"
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "year": "1997",
+      "copies": 213,
+      "price": 12.99,
+      "genreId": "1"
+    },
+    {
+      "id": 7,
+      "title": "The Lightning Thief",
+      "author": "Rick Riordan",
+      "year": "2005",
+      "copies": 312,
+      "price": 24.99,
+      "genreId": "3"
+    },
+    {
+      "id": 8,
+      "title": "Twilight",
+      "author": "Stephenie Meyer",
+      "year": "2005",
+      "copies": 14,
+      "price": 16.99,
+      "genreId": "3"
+    },
+    {
+      "id": 9,
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "year": "2005",
+      "copies": 31,
+      "price": 30.99,
+      "genreId": "2"
+    },
+    {
+      "id": 10,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "year": "1960",
+      "copies": 101,
+      "price": 9.99,
+      "genreId": "2"
+    },
+    {
+      "id": 11,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": "1813",
+      "copies": 52,
+      "price": 13.99,
+      "genreId": "2"
+    },
+    {
+      "id": 12,
+      "title": "The Maze Runner",
+      "author": "James Dashner",
+      "year": "2009",
+      "copies": 123,
+      "price": 13.99,
+      "genreId": "4"
+    },
+    {
+      "id": 13,
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Sir Arthur Conan Doyle",
+      "year": "1892",
+      "copies": 76,
+      "price": 7.99,
+      "genreId": "7"
+    },
+    {
+      "id": 14,
+      "title": "Coraline",
+      "author": "Neil Gaiman",
+      "year": "2002",
+      "copies": 41,
+      "price": 14.29,
+      "genreId": "7"
+    },
+    {
+      "id": 15,
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "year": "2011",
+      "copies": 2,
+      "price": 50.99,
+      "genreId": "6"
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "name": "Fiction"
+    },
+    {
+      "id": "2",
+      "name": "Historical"
+    },
+    {
+      "id": "3",
+      "name": "Fantasy"
+    },
+    {
+      "id": "4",
+      "name": "Science Fiction"
+    },
+    {
+      "id": "5",
+      "name": "Non-Fiction"
+    },
+    {
+      "id": "6",
+      "name": "Biography"
+    },
+    {
+      "id": "7",
+      "name": "Mystery"
+    }
+  ]
+}
