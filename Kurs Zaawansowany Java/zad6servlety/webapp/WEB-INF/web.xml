@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <context-param>
+        <param-name>authorName</param-name>
+        <param-value>Cezary Miłek</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>authorEmail</param-name>
+        <param-value>c.milek@mail.pl</param-value>
+    </context-param>
+
+    <!-- Servlet Kula -->
+    <servlet>
+        <servlet-name>kula-servlet</servlet-name>
+        <servlet-class>org.zad6servlety.KulaServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>kula-servlet</servlet-name>
+        <url-pattern>/kula-servlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Servlet Trójkąt -->
+    <servlet>
+        <servlet-name>triangle-servlet</servlet-name>
+        <servlet-class>org.zad6servlety.TriangleServlet</servlet-class>
+        <init-param>
+            <param-name>defaultA</param-name>
+            <param-value>3.0</param-value>
+        </init-param>
+        <init-param>
+            <param-name>defaultB</param-name>
+            <param-value>4.0</param-value>
+        </init-param>
+        <init-param>
+            <param-name>defaultC</param-name>
+            <param-value>5.0</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>triangle-servlet</servlet-name>
+        <url-pattern>/triangle-servlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
