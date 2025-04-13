@@ -24,11 +24,25 @@ Ukończone semestry:
 - Kurs rozszerzony języka Python
 - Kurs projektowania aplikacji z bazami danych
 
----
-
-Obecny semestr:
 ## **IV SEM**:
 - Algorytmy i struktury danych
 - Kurs: React
 - Rachunek prawdopodobieństwa i statystyka
 - Systemy komputerowe
+
+## **V SEM**:
+- Inżynieria oprogramowania
+- Machine Learning
+- Programowanie Współbieżne
+- Kurs języka Java
+- Seminarium: Współczesne narzędzia do wytwarzania aplikacji webowych
+- O ekonomii i gospodarce inaczej
+
+---
+
+Obecny semestr:
+## **VI SEM**:
+- Projektowanie obiektowe oprogramowania
+- Sieci komputerowe
+- Kurs: Tworzenie aplikacji frontendowych
+- Kurs: Zaawansowane technologie Javy
