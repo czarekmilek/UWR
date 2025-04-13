@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="contact-form">
+      <form class="contact-form__card">
+        <h1 class="contact-form__heading">Contact Form</h1>
+
+        <div class="contact-form__grid">
+          <div class="contact-form__field">
+            <label class="contact-form__label" for="firstName"
+              >First Name*</label
+            >
+            <input
+              class="contact-form__input"
+              type="text"
+              id="firstName"
+              name="firstName"
+              required
+            />
+          </div>
+
+          <div class="contact-form__field">
+            <label class="contact-form__label" for="lastName">Last Name</label>
+            <input
+              class="contact-form__input"
+              type="text"
+              id="lastName"
+              name="lastName"
+            />
+          </div>
+
+          <div class="contact-form__field contact-form__field--fullwidth">
+            <label class="contact-form__label" for="email">E-mail*</label>
+            <input
+              class="contact-form__input"
+              type="email"
+              id="email"
+              name="email"
+              required
+              pattern="^[^@]+@[^@]+\.[^@]+$"
+              title="Enter a valid e-mail address."
+            />
+          </div>
+
+          <div class="contact-form__field contact-form__field--fullwidth">
+            <label class="contact-form__label" for="phone">Phone</label>
+            <input
+              class="contact-form__input"
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="^[0-9]{9}$"
+              title="Phone number must contain 9 numbers."
+            />
+          </div>
+
+          <div class="contact-form__field contact-form__field--checkbox">
+            <input
+              class="contact-form__checkbox-input"
+              type="checkbox"
+              id="newsletter"
+              name="newsletter"
+            />
+            <label class="contact-form__checkbox-label" for="newsletter">
+              Subscribe to newsletter
+            </label>
+          </div>
+
+          <div class="contact-form__field contact-form__field--fullwidth">
+            <label class="contact-form__label" for="reason"
+              >Reason of Contact*</label
+            >
+            <select
+              class="contact-form__input"
+              id="reason"
+              name="reason"
+              required
+            >
+              <option value="">Select an option</option>
+              <option value="support">Technical Support</option>
+              <option value="question">Question</option>
+              <option value="feedback">Opinion</option>
+            </select>
+          </div>
+
+          <div class="contact-form__field contact-form__field--fullwidth">
+            <label class="contact-form__label" for="message">Message*</label>
+            <textarea
+              class="contact-form__input contact-form__textarea"
+              id="message"
+              name="message"
+              required
+            ></textarea>
+          </div>
+
+          <button class="contact-form__button" type="submit">Send</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

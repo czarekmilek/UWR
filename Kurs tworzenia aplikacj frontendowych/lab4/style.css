@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+  font-size: clamp(1rem, 1vw + 0.5rem, 1.25rem);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #6a12cb, #2674fc);
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact-form__card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin: 2rem 1rem;
+  max-width: 70ch;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form__heading {
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+.contact-form__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.contact-form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__field--fullwidth {
+  grid-column: 1 / -1;
+}
+
+.contact-form__label {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.contact-form__input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font: inherit;
+}
+
+.contact-form__textarea {
+  min-height: 6rem;
+  resize: vertical;
+}
+
+.contact-form__field--checkbox {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-form__checkbox-input {
+  width: 1rem;
+  height: 1rem;
+}
+
+.contact-form__checkbox-label {
+  cursor: pointer;
+}
+
+.contact-form__button {
+  grid-column: 1 / -1;
+  padding: 1rem;
+  background-color: #6a12cb;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contact-form__button:hover {
+  background-color: #5711a3;
+}
+
+.contact-form__input:invalid {
+  border-color: red;
+}
+
+@media (pointer: coarse) {
+  .contact-form__checkbox-input {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-form__card {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 0.5rem;
+  }
+
+  .contact-form__grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .contact-form__button {
+    font-size: 0.6rem;
+    padding: 0.6rem;
+  }
+}
