@@ -1,3 +1,5 @@
+## Lista przedmiotów według semestru 📚
+
 | **Semestr** | **Przedmioty** |
 |-------------|----------------------------|
 | **I SEM** | Logika dla informatyków<br>Analiza matematyczna<br>Wstęp do informatyki<br>Kurs: Podstawowy warsztat informatyka<br>Kurs: Wstęp do programowania w języku Python |
