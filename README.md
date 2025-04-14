@@ -1,48 +1,8 @@
-# UWR
-Projekty/zadania wykonane podczas studiów na Uniwersytecie Wrocławskim.
-
-Ukończone semestry:
-
-## **I SEM**:
-- Logika dla informatyków
-- Analiza matematyczna
-- Wstęp do informatyki
-- Kurs: Podstawowy warsztat informatyka
-- Kurs: Wstęp do programowania w języku Python
-  
-## **II SEM**:
-- Metody Programowania
-- Algebra
-- Programowanie Obiektowe
-- Kurs języka C++
-- Warsztaty: Jak założyć firmę?
-
-## **III SEM**:
-- Analiza Numeryczna
-- Matematyka Dyskretna
-- Wybrane elementy praktyki projektowania oprogramowania
-- Kurs rozszerzony języka Python
-- Kurs projektowania aplikacji z bazami danych
-
-## **IV SEM**:
-- Algorytmy i struktury danych
-- Kurs: React
-- Rachunek prawdopodobieństwa i statystyka
-- Systemy komputerowe
-
-## **V SEM**:
-- Inżynieria oprogramowania
-- Machine Learning
-- Programowanie Współbieżne
-- Kurs języka Java
-- Seminarium: Współczesne narzędzia do wytwarzania aplikacji webowych
-- O ekonomii i gospodarce inaczej
-
----
-
-Obecny semestr:
-## **VI SEM**:
-- Projektowanie obiektowe oprogramowania
-- Sieci komputerowe
-- Kurs: Tworzenie aplikacji frontendowych
-- Kurs: Zaawansowane technologie Javy
+| **Semestr** | **Przedmioty** |
+|-------------|----------------------------|
+| **I SEM** | Logika dla informatyków<br>Analiza matematyczna<br>Wstęp do informatyki<br>Kurs: Podstawowy warsztat informatyka<br>Kurs: Wstęp do programowania w języku Python |
+| **II SEM** | [Metody Programowania](https://github.com/czarekmilek/UWR/tree/main/Metody%20Programowania)<br>Algebra<br>[Programowanie Obiektowe](https://github.com/czarekmilek/UWR/tree/main/Programowanie%20Obiektowe)<br>[Kurs języka C++](https://github.com/czarekmilek/UWR/tree/main/Kurs%20j%C4%99zyka%20C%2B%2B)<br>Warsztaty: Jak założyć firmę? |
+| **III SEM** | [Analiza Numeryczna](https://github.com/czarekmilek/UWR/tree/main/Analiza%20Numeryczna)<br>Matematyka Dyskretna<br>[Wybrane elementy praktyki projektowania oprogramowania](https://github.com/czarekmilek/UWR/tree/main/Wybrane%20elementy%20praktyki%20projektowania%20oprogramowania)<br>[Kurs rozszerzony języka Python](https://github.com/czarekmilek/UWR/tree/main/Kurs%20rozszerzony%20j%C4%99zyka%20Python)<br>[Kurs projektowania aplikacji z bazami danych](https://github.com/czarekmilek/UWR/tree/main/Kurs%20projektowania%20aplikacji%20z%20bazami%20danych) |
+| **IV SEM** | Algorytmy i struktury danych<br>[Kurs: React](https://github.com/czarekmilek/UWR/tree/main/Kurs%20React)<br>[Rachunek prawdopodobieństwa i statystyka](https://github.com/czarekmilek/UWR/tree/main/Rachunek%20Prawdopodobie%C5%84stwa%20i%20Statystyka)<br>Systemy komputerowe |
+| **V SEM** | [Inżynieria oprogramowania](https://github.com/czarekmilek/UWR/tree/main/In%C5%BCynieria%20Oprogramowania)<br>[Machine Learning](https://github.com/czarekmilek/UWR/tree/main/Machine%20Learning)<br>Programowanie Współbieżne<br>[Kurs języka Java](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Java)<br>Seminarium: Współczesne narzędzia do wytwarzania aplikacji webowych<br>O ekonomii i gospodarce inaczej |
+| **VI SEM** *(obecny)* | Projektowanie obiektowe oprogramowania<br>Sieci komputerowe<br>[Kurs: Tworzenie aplikacji frontendowych](https://github.com/czarekmilek/UWR/tree/main/Kurs%20tworzenia%20aplikacj%20frontendowych)<br>[Kurs: Zaawansowane technologie Javy](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Zaawansowany%20Java) |
