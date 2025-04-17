@@ -1,4 +1,4 @@
-## Lista przedmiotów według semestru 📚
+## Lista przedmiotów według semestru 📚 / List of courses in given semester 📚
 
 | **Semestr** | **Przedmioty** |
 |-------------|----------------------------|
@@ -7,4 +7,4 @@
 | **III SEM** | [Analiza Numeryczna](https://github.com/czarekmilek/UWR/tree/main/Analiza%20Numeryczna)<br>Matematyka Dyskretna<br>[Wybrane elementy praktyki projektowania oprogramowania](https://github.com/czarekmilek/UWR/tree/main/Wybrane%20elementy%20praktyki%20projektowania%20oprogramowania)<br>[Kurs rozszerzony języka Python](https://github.com/czarekmilek/UWR/tree/main/Kurs%20rozszerzony%20j%C4%99zyka%20Python)<br>[Kurs projektowania aplikacji z bazami danych](https://github.com/czarekmilek/UWR/tree/main/Kurs%20projektowania%20aplikacji%20z%20bazami%20danych) |
 | **IV SEM** | Algorytmy i struktury danych<br>[Kurs: React](https://github.com/czarekmilek/UWR/tree/main/Kurs%20React)<br>[Rachunek prawdopodobieństwa i statystyka](https://github.com/czarekmilek/UWR/tree/main/Rachunek%20Prawdopodobie%C5%84stwa%20i%20Statystyka)<br>Systemy komputerowe |
 | **V SEM** | [Inżynieria oprogramowania](https://github.com/czarekmilek/UWR/tree/main/In%C5%BCynieria%20Oprogramowania)<br>[Machine Learning](https://github.com/czarekmilek/UWR/tree/main/Machine%20Learning)<br>Programowanie Współbieżne<br>[Kurs języka Java](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Java)<br>Seminarium: Współczesne narzędzia do wytwarzania aplikacji webowych<br>O ekonomii i gospodarce inaczej |
-| **VI SEM** *(obecny)* | Projektowanie obiektowe oprogramowania<br>Sieci komputerowe<br>[Kurs: Tworzenie aplikacji frontendowych](https://github.com/czarekmilek/UWR/tree/main/Kurs%20tworzenia%20aplikacj%20frontendowych)<br>[Kurs: Zaawansowane technologie Javy](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Zaawansowany%20Java) |
+| **VI SEM** *(obecny)* | [Projektowanie obiektowe oprogramowania](https://github.com/czarekmilek/UWR/tree/main/Projektowanie%20obiektowe%20oprogramowania) <br>[Sieci komputerowe](https://github.com/czarekmilek/UWR/tree/main/Sieci%20Komputerowe)<br>[Kurs: Tworzenie aplikacji frontendowych](https://github.com/czarekmilek/UWR/tree/main/Kurs%20tworzenia%20aplikacj%20frontendowych)<br>[Kurs: Zaawansowane technologie Javy](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Zaawansowany%20Java) |
