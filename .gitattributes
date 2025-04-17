@@ -1,2 +1,3 @@
 # Ignore Jupyter Notebooks from GitHub language stats
 *.ipynb linguist-generated=true
+*.pdf linguist-generated=true
