@@ -1,4 +1,4 @@
-## Lista przedmiotów według semestru 📚 / List of courses in given semester 📚
+## Przedmioty według semestru 📚 / Courses in given semesters 📚
 
 | **Semestr** | **Przedmiot** | **Course** |
 |-------------| ------------- | ---------- |
