@@ -1,0 +1,8 @@
+class {{ class_name }}:
+    def __init__(self, {% for f in fields %}{{ f.name }}: {{ f.type }}{% if not loop.last %}, {% endif %}{% endfor %}):
+        {% for f in fields %}
+        self.{{ f.name }} = {{ f.name }}
+        {% endfor %}
+
+    def __repr__(self):
+        return f"<{{ class_name }}({% for f in fields %}{{ '{{' }}self.{{ f.name }}{{ '}}' }}{% if not loop.last %}, {% endif %}{% endfor %})>"

@@ -1,0 +1,11 @@
+<classes>
+  <class name="Person">
+    <field name="name" type="str" />
+    <field name="surname" type="str" />
+  </class>
+  <class name="Game">
+    <field name="title" type="str" />
+    <field name="category" type="str" />
+    <field name="year" type="int" />
+  </class>
+</classes>
