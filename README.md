@@ -1,4 +1,24 @@
-## Przedmioty według semestru 📚 / Courses in given semesters 📚
+<div align="center">
+  <h1>🎓 UWr — Academic Repository</h1>
+  <p><strong>Computer Science Coursework • University of Wrocław (UWr)</strong></p>
+
+  <p>
+    <img src="https://img.shields.io/badge/University_of_Wrocław-0077B5?style=for-the-badge&logo=education&logoColor=white" />
+    <img src="https://img.shields.io/badge/B.Sc._Computer_Science-b53e00?style=for-the-badge" />
+  </p>
+</div>
+
+<br/>
+
+## 📌 Overview
+
+This repository is a collection of lab assignments, projects, algorithm implementations, and other tasks completed during my **Bachelor of Science in Computer Science** studies at the **University of Wrocław (UWr)**.
+
+> (🇵🇱) *To repozytorium to zbiór zadań laboratoryjnych, projektów i zadań wykonanych podczas moich studiów inżynierskich na kierunku **Informatyka** na **Uniwersytecie Wrocławskim (UWr)**.*
+
+<br/>
+
+## 🗺️ Coursework by semester / Przedmioty według semestru
 
 | **Semestr** | **Przedmiot** | **Course** |
 |-------------| ------------- | ---------- |
@@ -7,4 +27,27 @@
 | **III SEM** | [Analiza Numeryczna](https://github.com/czarekmilek/UWR/tree/main/Analiza%20Numeryczna)<br>Matematyka Dyskretna<br>[Wybrane elementy praktyki projektowania oprogramowania](https://github.com/czarekmilek/UWR/tree/main/Wybrane%20elementy%20praktyki%20projektowania%20oprogramowania)<br>[Kurs rozszerzony języka Python](https://github.com/czarekmilek/UWR/tree/main/Kurs%20rozszerzony%20j%C4%99zyka%20Python)<br>[Kurs projektowania aplikacji z bazami danych](https://github.com/czarekmilek/UWR/tree/main/Kurs%20projektowania%20aplikacji%20z%20bazami%20danych) | [Numerical Analysis](https://github.com/czarekmilek/UWR/tree/main/Analiza%20Numeryczna)<br>Discrete Mathematics<br>[Selected Aspects of Practical Software Development](https://github.com/czarekmilek/UWR/tree/main/Wybrane%20elementy%20praktyki%20projektowania%20oprogramowania)<br>[Advanced Python Programming](https://github.com/czarekmilek/UWR/tree/main/Kurs%20rozszerzony%20j%C4%99zyka%20Python)<br>[Design of database applications](https://github.com/czarekmilek/UWR/tree/main/Kurs%20projektowania%20aplikacji%20z%20bazami%20danych) |
 | **IV SEM** | Algorytmy i struktury danych<br>[Kurs: React](https://github.com/czarekmilek/UWR/tree/main/Kurs%20React)<br>[Rachunek prawdopodobieństwa i statystyka](https://github.com/czarekmilek/UWR/tree/main/Rachunek%20Prawdopodobie%C5%84stwa%20i%20Statystyka)<br>Systemy komputerowe | Algorithms and Data Structures<br>[React course](https://github.com/czarekmilek/UWR/tree/main/Kurs%20React)<br>[Probability and Statistics](https://github.com/czarekmilek/UWR/tree/main/Rachunek%20Prawdopodobie%C5%84stwa%20i%20Statystyka)<br>Computer Systems |
 | **V SEM** | [Inżynieria oprogramowania](https://github.com/czarekmilek/UWR/tree/main/In%C5%BCynieria%20Oprogramowania)<br>[Machine Learning](https://github.com/czarekmilek/UWR/tree/main/Machine%20Learning)<br>Programowanie Współbieżne<br>[Kurs języka Java](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Java)<br>Seminarium: Współczesne narzędzia do wytwarzania aplikacji webowych<br>O ekonomii i gospodarce inaczej | [Software engineering](https://github.com/czarekmilek/UWR/tree/main/In%C5%BCynieria%20Oprogramowania)<br>[Machine Learning](https://github.com/czarekmilek/UWR/tree/main/Machine%20Learning)<br>Concurrent programming<br>[Java course](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Java)<br>Seminar: Modern Web Development<br>Another View of Economy |
-| **VI SEM** *(obecny)* | [Projektowanie obiektowe oprogramowania](https://github.com/czarekmilek/UWR/tree/main/Projektowanie%20obiektowe%20oprogramowania) <br>[Sieci komputerowe](https://github.com/czarekmilek/UWR/tree/main/Sieci%20Komputerowe)<br>[Kurs: Tworzenie aplikacji frontendowych](https://github.com/czarekmilek/UWR/tree/main/Kurs%20tworzenia%20aplikacj%20frontendowych)<br>[Kurs: Zaawansowane technologie Javy](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Zaawansowany%20Java) | [Object-oriented Software Development](https://github.com/czarekmilek/UWR/tree/main/Projektowanie%20obiektowe%20oprogramowania) <br>[Computer Networks](https://github.com/czarekmilek/UWR/tree/main/Sieci%20Komputerowe)<br>[Front-end apps development](https://github.com/czarekmilek/UWR/tree/main/Kurs%20tworzenia%20aplikacj%20frontendowych)<br>[Advanced Java Technologies](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Zaawansowany%20Java) |
+| **VI SEM** | [Projektowanie obiektowe oprogramowania](https://github.com/czarekmilek/UWR/tree/main/Projektowanie%20obiektowe%20oprogramowania) <br>[Sieci komputerowe](https://github.com/czarekmilek/UWR/tree/main/Sieci%20Komputerowe)<br>[Kurs: Tworzenie aplikacji frontendowych](https://github.com/czarekmilek/UWR/tree/main/Kurs%20tworzenia%20aplikacj%20frontendowych)<br>[Kurs: Zaawansowane technologie Javy](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Zaawansowany%20Java) | [Object-oriented Software Development](https://github.com/czarekmilek/UWR/tree/main/Projektowanie%20obiektowe%20oprogramowania) <br>[Computer Networks](https://github.com/czarekmilek/UWR/tree/main/Sieci%20Komputerowe)<br>[Front-end apps development](https://github.com/czarekmilek/UWR/tree/main/Kurs%20tworzenia%20aplikacj%20frontendowych)<br>[Advanced Java Technologies](https://github.com/czarekmilek/UWR/tree/main/Kurs%20Zaawansowany%20Java) |
+| **VII SEM** | [Modele Językowe](https://github.com/czarekmilek/UWR/tree/main/Modele%20J%C4%99zykowe)<br>[Praca inżynierska](https://czarekmilek.github.io/OtterlyWell) | [Language Models](https://github.com/czarekmilek/UWR/tree/main/Modele%20J%C4%99zykowe)<br>[Engineering Thesis](https://github.com/czarekmilek/OtterlyWell) |
+
+<br/>
+
+<h2>🚀 Standalone Academic Repositories (UWr)</h2>
+      <p>Some of the projects and coursework I did in adjacent repositories:</p>
+<h4>📚 Academic, Full-Stack, AI Projects</h4>
+      <ul>
+        <li>🦦 <b><a href="https://github.com/czarekmilek/OtterlyWell">OtterlyWell</a> (Engineering Thesis)</b> — React & Supabase app for tracking habits and physical well-being.</li>
+        <li>🤖 <b><a href="https://github.com/czarekmilek/Persona-Dialectics">Persona-Dialectics</a> (Language Models)</b> — Python project simulating multi-agent LLM debates to evaluate persona-driven reasoning.</li>
+        <li>🎵 <b><a href="https://github.com/czarekmilek/Music-Genre-Classifier">Music-Genre-Classifier</a> (Machine Learning)</b> — Machine learning audio classifier in Python with an Angular frontend.</li>
+        <li>🎮 <b><a href="https://github.com/czarekmilek/Ben10-Adventure-Text-Game">Ben10-Adventure-Text-Game</a> (OOP Course)</b> — Java text-based adventure game built for OOP course.</li>
+        <li>🥦 <b><a href="https://github.com/czarekmilek/GreenVeggies">GreenVeggies</a> (WEPPO)</b> — E-commerce online grocery shop built with React and Node.js.</li>
+        <li>🔬 <b><a href="https://github.com/czarekmilek/NIFS3">NIFS3</a> (Numerical Analysis)</b> — Python tool for image reconstruction using cubic spline interpolation.</li>
+      </ul>
+      <!-- <br/> -->
+      <h4>🧮 Algorithmic & Low-Level</h4>
+      <ul>
+        <li>🪙 <b><a href="https://github.com/czarekmilek/Coins-Problem">Coins-Problem</a> (AiSD)</b> — C++ solution for the classic coin change problem.</li>
+        <li>🧮 <b><a href="https://github.com/czarekmilek/Chinese-Cell">Chinese-Cell</a> (AiSD)</b> — C++ cellular automaton grid simulation.</li>
+        <li>🔢 <b><a href="https://github.com/czarekmilek/Numbers-Problem">Numbers-Problem</a> (AiSD)</b> — Custom C++ data structure for efficient integer storage and queries.</li>
+        <li>🌐 <b><a href="https://github.com/czarekmilek/Traceroute">Traceroute</a> (Computer Networks)</b> — C++ network diagnostic tool using raw sockets to trace IP packet routing hops.</li>
+      </ul>
